@@ -1,0 +1,27 @@
+
+.in{
+    width: 500px;
+    padding: 50px;
+}
+
+input{
+    position: center;
+    width: 290px
+}
+
+input + div + div{
+    display: none;
+}
+input:valid + div{
+    display: none;
+}
+input:valid + div + div{
+    display: block;
+}
+
+
+button{
+    margin: 50px;
+    width: 290px;
+    border: none;
+}
